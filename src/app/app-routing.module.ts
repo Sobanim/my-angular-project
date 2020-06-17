@@ -12,6 +12,9 @@ const routes: Routes = [
       {path: '', component: HomePageComponent},
       { path: 'post/:id', component: PostPageComponent } //for dynamic ID's
     ]
+  },
+  {
+    path: '/admin', loadChildren: './admin/admin.module#AdminModule'
   }
 ];
 
