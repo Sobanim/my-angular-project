@@ -1,2 +1,2 @@
-# my-angular-project
+# My-angular-project
 It is blog, created on Angular
